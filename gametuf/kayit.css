@@ -1,0 +1,214 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+
+#nedir{
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    width: 70%;
+    padding: 10px 10px 10px 100px;
+}
+
+#baslik{
+    font-size: 42px;
+}
+#acikalama{
+    font-size: 25px;
+    max-width: 600px;
+}
+#ghostpng{
+    width: 250px;
+}
+.yonlendirme a{
+    padding-right: 5px;
+}
+
+
+
+
+#login{
+    width: 30%;
+    /* background-color: rgb(148, 125, 125); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.inputarea{
+    width: 320px;
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 17px;
+    color: #000;
+
+}
+.inputarea:hover{
+    background-color: rgb(230, 229, 223);
+
+}
+#buttonlogin{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 7px;
+}
+/* .textsign{} */
+#signuptextcolur{
+    color: #2962FF;
+}
+.textlog{
+    font-size: 27px;
+}
+.betatext{
+    font-size: 12px;
+}
+
+
+
+#foot{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.footicon{
+    padding-left: 20px;
+}
+.fab{
+    padding-left: 5px;
+    color: rgb(0, 0, 0);
+}
+.fab:hover{
+    color: rgb(235, 228, 228);
+}
+
+
+
+@media screen and (max-width:900px) {
+    html,body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    #nedir{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        padding: 0;
+        margin: 0;
+    }
+    #baslik{
+        font-size: 42px;
+        text-align: center;
+    }
+    #acikalama{
+        font-size: 25px;
+        width: 270px;
+        text-align: center;
+    }
+    #ghostpng{
+        width: 150px;
+    }
+    
+    
+    #login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .inputarea{
+        width: 250px;
+        padding: 15px;
+        margin: 5px;
+        border: 1px solid black;
+        border-radius: 8px;
+        font-size: 17px;
+        color: #000;
+    
+    }
+    .inputarea:hover{
+        background-color: rgb(230, 229, 223);
+    
+    }
+    #buttonlogin{
+        /* width: 150px;
+        height: 50px; */
+        margin: 10px;
+        background-color: black;
+        color: #fff;
+        font-size: 25px;
+        border-radius: 7px;
+    }
+    .textsign{
+        text-align: center;
+    }
+    #signuptextcolur{
+        color: #2962FF;
+    }
+    .textlog{
+        font-size: 25px;
+        text-align: center;
+    }
+    .betatext{
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    
+    #foot{
+        display: flex;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #foot p {
+        text-align: center;
+    }
+    .footicon{
+        padding-left: 5px;
+    }
+    .fab{
+        padding-left: 0px;
+        color: rgb(0, 0, 0);
+    }
+    .fab:hover{
+        color:rgb(219, 209, 209);
+    }
+}

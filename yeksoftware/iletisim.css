@@ -1,0 +1,315 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav yapıısı */
+
+/* #baslik{
+} */
+#baslik ul {
+    display: flex;
+    list-style: none;
+    align-items:center;
+}
+#baslik ul li{
+    padding: 5px;
+}
+#baslik ul li a{
+    text-decoration: none;
+    color: #000;
+    /* border: 1px solid black;
+    padding: 7px;
+    border-radius: 4px; */
+    font-size: 20px;
+    transition: 0.7s;
+}
+#baslik ul li a:hover{
+    color: #000;
+    background-color: rgb(241, 238, 238);
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 22px;
+    
+}
+
+#namelogo{
+    font-size: 33px;
+}
+
+/* main yapıısı */
+
+#iletisim{
+    height: 400px;
+    margin-top: 7%;
+    background-color: rgb(238, 227, 206);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#iletisim ul{
+    list-style: none;
+    font-size: 25px;
+    
+}
+#iletisim ul li{
+    padding: 10px;
+}
+#inputarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputtext{
+    padding: 15px;
+    margin: 5px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+}
+#konu{
+    width: 440px;
+    height: 90px;
+}
+#gonder{
+    padding: 15px;
+    border: none;
+    width: 120px;
+    margin-top: 5px;
+    border-radius: 8px;
+    background-color: rgb(231, 225, 225);
+    transition: 0.7s;
+}
+#gonder:hover{
+    padding: 17px;
+    background-color: rgb(255, 255, 255);
+}
+/* footer yapıısı */
+#foot{
+    background-color: rgb(240, 239, 238);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+
+@media screen and (max-width:910px) {
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* nav yapıısı */
+    
+    /* #baslik{
+    } */
+    #baslik ul {
+        display: flex;
+        list-style: none;
+        align-items:center;
+    }
+    #baslik ul li{
+        padding: 5px;
+    }
+    #baslik ul li a{
+        text-decoration: none;
+        color: #000;
+        /* border: 1px solid black;
+        padding: 7px;
+        border-radius: 4px; */
+        font-size: 20px;
+        transition: 0.7s;
+    }
+    #baslik ul li a:hover{
+        color: #000;
+        background-color: rgb(241, 238, 238);
+        border: 1px solid black;
+        padding: 7px;
+        border-radius: 4px;
+        font-size: 22px;
+        
+    }
+    
+    #namelogo{
+        font-size: 33px;
+    }
+    
+    /* main yapıısı */
+    
+    #iletisim{
+        height: auto;
+        width: auto;
+        margin-top: 7%;
+        background-color: rgb(238, 227, 206);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #iletisim ul{
+        list-style: none;
+        font-size: 25px;
+        
+    }
+    #iletisim ul li{
+        padding: 10px;
+    }
+    #inputarea{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputtext{
+        padding: 15px;
+        margin: 5px;
+        width: 200px;
+        border: none;
+        border-radius: 8px;
+    }
+    #konu{
+        width: 440px;
+        height: 90px;
+    }
+    #gonder{
+        padding: 15px;
+        border: none;
+        width: 120px;
+        margin-top: 5px;
+        border-radius: 8px;
+        background-color: rgb(231, 225, 225);
+        transition: 0.7s;
+    }
+    #gonder:hover{
+        padding: 17px;
+        background-color: rgb(255, 255, 255);
+    }
+    /* footer yapıısı */
+    #foot{
+        background-color: rgb(240, 239, 238);
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width:540px) {
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* nav yapıısı */
+    
+    /* #baslik{
+    } */
+    #baslik ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items:center;
+    }
+    #baslik ul li{
+        padding: 5px;
+    }
+    #baslik ul li a{
+        text-decoration: none;
+        color: #000;
+        /* border: 1px solid black;
+        padding: 7px;
+        border-radius: 4px; */
+        font-size: 20px;
+        transition: 0.7s;
+    }
+    #baslik ul li a:hover{
+        color: #000;
+        background-color: rgb(241, 238, 238);
+        border: 1px solid black;
+        padding: 7px;
+        border-radius: 4px;
+        font-size: 22px;
+        
+    }
+    
+    #namelogo{
+        font-size: 33px;
+    }
+    
+    /* main yapıısı */
+    
+    #iletisim{
+        height: auto;
+        width: auto;
+        margin-top: 7%;
+        background-color: rgb(238, 227, 206);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #iletisim ul{
+        list-style: none;
+        font-size: 25px;
+        
+    }
+    #iletisim ul li{
+        padding: 10px;
+    }
+    #inputarea{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputtext{
+        padding: 15px;
+        margin: 5px;
+        width: auto;
+        border: none;
+        border-radius: 8px;
+    }
+    #konu{
+        width: auto;
+        height: 90px;
+    }
+    #gonder{
+        padding: 15px;
+        border: none;
+        width: auto;
+        margin-top: 5px;
+        border-radius: 8px;
+        background-color: rgb(231, 225, 225);
+        transition: 0.7s;
+    }
+    #gonder:hover{
+        padding: 17px;
+        background-color: rgb(255, 255, 255);
+    }
+    /* footer yapıısı */
+    #foot{
+        background-color: rgb(240, 239, 238);
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        width: 100%;
+    }
+}
